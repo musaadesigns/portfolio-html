@@ -4,7 +4,7 @@ $(function() {
       number:'1',
       name: 'musaa Branding',
       categories: 'branding, ui, development',
-      href: 'portfolio-html/portfolio-html/nochoice.html',
+      href: '/portfolio-html/nochoice.html',
       image: 'img/bg2.jpg',
     }, {
       number:'2',
