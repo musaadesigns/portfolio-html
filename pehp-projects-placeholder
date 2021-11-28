@@ -1,0 +1,112 @@
+<?php
+// A two-dimensional array
+$projects=array
+  (
+  array("No Choice","branding, ui"),
+  array("Litotes","branding, conceptual"),
+  array("No Choice","branding, ui"),
+  array("Litotes","branding, conceptual"),
+  array("No Choice","branding, ui"),
+  array("Litotes","branding, conceptual")
+  );
+?>
+
+<section id="work">
+  <div class="section-container">
+    <div class="grid-container" style="">
+      <a class="box-container" href="nochoice.php">
+        <div class="box box1">
+          <div class="bg"></div>
+          <div class="box-overlay">
+            <div class="project-info">
+              <h2><?php echo $projects[0][0] ?></h2>
+              <p><?php echo $projects[0][1] ?></p>
+            </div>
+          </div>
+        </div>
+        <div class="mob-project-info">
+          <h2><?php echo $projects[0][0] ?></h2>
+          <p><?php echo $projects[0][1] ?></p>
+        </div>
+      </a>
+      <a class="box-container">
+        <div class="box box2">
+          <div class="bg"></div>
+          <div class="box-overlay">
+            <div class="project-info">
+              <h2><?php echo $projects[1][0] ?></h2>
+              <p><?php echo $projects[1][1] ?></p>
+            </div>
+          </div>
+        </div>
+        <div class="mob-project-info">
+          <h2><?php echo $projects[1][0] ?></h2>
+          <p><?php echo $projects[1][1] ?></p>
+        </div>
+      </a>
+      <a class="box-container">
+        <div class="box box3">
+          <div class="bg"></div>
+          <div class="box-overlay">
+            <div class="project-info">
+              <h2><?php echo $projects[2][0] ?></h2>
+              <p><?php echo $projects[2][1] ?></p>
+            </div>
+          </div>
+        </div>
+        <div class="mob-project-info">
+          <h2><?php echo $projects[2][0] ?></h2>
+          <p><?php echo $projects[2][1] ?></p>
+        </div>
+      </a>
+      <a class="box-container">
+        <div class="box box4">
+          <div class="bg"></div>
+          <div class="box-overlay">
+            <div class="project-info">
+              <h2><?php echo $projects[3][0] ?></h2>
+              <p><?php echo $projects[3][1] ?></p>
+            </div>
+          </div>
+        </div>
+        <div class="mob-project-info">
+          <h2><?php echo $projects[3][0] ?></h2>
+          <p><?php echo $projects[3][1] ?></p>
+        </div>
+      </a>
+      <a class="box-container">
+        <div class="box box5">
+          <div class="bg"></div>
+          <div class="box-overlay">
+            <div class="project-info">
+              <h2><?php echo $projects[4][0] ?></h2>
+              <p><?php echo $projects[4][1] ?></p>
+            </div>
+          </div>
+        </div>
+        <div class="mob-project-info">
+          <h2><?php echo $projects[4][0] ?></h2>
+          <p><?php echo $projects[4][1] ?></p>
+        </div>
+      </a>
+      <a class="box-container">
+        <div class="box box6">
+          <div class="bg"></div>
+          <div class="box-overlay">
+            <div class="project-info">
+              <h2><?php echo $projects[5][0] ?></h2>
+              <p><?php echo $projects[5][1] ?></p>
+            </div>
+          </div>
+        </div>
+        <div class="mob-project-info">
+          <h2><?php echo $projects[5][0] ?></h2>
+          <p><?php echo $projects[5][1] ?></p>
+        </div>
+      </a>
+
+
+
+    </div>
+  </div>
+</section>
